@@ -1,0 +1,43 @@
+# AsciiDoc
+adoc
+toclevels
+
+# pre-commit
+autofix
+shellcheck
+shfmt
+yamlfmt
+
+# Names
+Tegge
+lwbt
+
+# ./README.adoc
+Chezmoi
+dfsd
+
+# ./asciinema-helper.adoc
+asciinema
+Asciinema
+ASCIINEMA
+ASCMA
+BGRED
+BGWHITE
+ensurepath
+ensurepip
+FGRED
+FGWHITE
+msys
+MULTICALL
+pipx
+
+# ./dfsd
+BINDIR
+chezmoi
+Chezmoi
+dotfile
+keygen
+missingkey
+mmcblk
+pipx
+steamdeck

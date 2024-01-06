@@ -1,0 +1,35 @@
+= asciinema-helper
+:hide-uri-scheme:
+// Enable keyboard macros
+:experimental:
+:toc:
+:toclevels: 4
+:icons: font
+:note-caption: ℹ️
+:tip-caption: 💡
+:warning-caption: ⚠️
+:caution-caption: 🔥
+:important-caption: ❗
+
+== Overview
+
+Asciinema has existed for years, but from my point of view and the people I
+have met, many know about the Star Wars terminal movie but almost nobody
+documents their terminal work with asciinema. So here is my contribution to
+change that by making it even easier to use.
+
+MacOS*, Windows and other operating systems are not supported yet. Feel free to
+port the functionality to your platform and preferred language, extend this
+scripts' compatibility or tell me of any existing projects so I can link them
+here.
+
+Why Bash? I would have preferred to write all my new code in Python instead,
+but I have to put this endeavor on hold until I have cleaned up other areas
+with technical debt. I try to write concise Bash code. If I continue to write
+messy code in other languages my problems will only get worse.
+
+*Before implementing this script in a more complicated way that works with very
+old versions of Bash, I'll let someone else with more experience of Macs with
+homebrew decide what is best to make it work.
+
+https://asciinema.org/a/q02sYXivfFOSDru2y4ROLbq1v
