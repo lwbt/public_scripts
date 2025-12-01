@@ -17,8 +17,14 @@ This is a collection of convenience scripts and some other scripts.
 
 == Where is it?
 
++++
+<del>
 I set up an DNS forward from https://scriptslwbt.ddns.me/ to
 https://raw.githubusercontent.com/lwbt/public_scripts/main/.
+</del>
++++
+
+The DNS forward will be retired.
 
 It only works with public repositories, private repositories require a token.
 https://github.com/orgs/community/discussions/22537

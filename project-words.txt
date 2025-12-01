@@ -42,3 +42,4 @@ missingkey
 mmcblk
 pipx
 steamdeck
+github

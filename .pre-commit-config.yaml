@@ -4,7 +4,7 @@
 # cspell:ignore autofix shellcheck shfmt yamlfmt gitleaks unattend scrollback
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
       - id: trailing-whitespace
       - id: end-of-file-fixer
@@ -24,12 +24,12 @@ repos:
       - id: pretty-format-json
         args: ["--autofix"]
   - repo: https://github.com/google/yamlfmt
-    rev: v0.14.0
+    rev: v0.20.0
     hooks:
       - id: yamlfmt
         args: ["-formatter", "include_document_start=true,scan_folded_as_literal=true"]
   - repo: https://github.com/koalaman/shellcheck-precommit
-    rev: v0.10.0
+    rev: v0.11.0
     hooks:
       - id: shellcheck
         args: ["--color=always", "--external-sources"]
@@ -39,7 +39,7 @@ repos:
               path/to/file\.py
           )$
   - repo: https://github.com/scop/pre-commit-shfmt
-    rev: v3.10.0-2
+    rev: v3.12.0-2
     hooks:
       - id: shfmt
         args: ["--diff", "--indent", "2", "--binary-next-line", "--space-redirects", "--case-indent"]
@@ -49,17 +49,17 @@ repos:
               path/to/file\.py
           )$
   - repo: https://github.com/gitleaks/gitleaks
-    rev: v8.22.1
+    rev: v8.30.0
     hooks:
       - id: gitleaks
         args: ["--no-banner"]
   - repo: https://github.com/amperser/proselint
-    rev: 0.14.0
+    rev: v0.16.0
     hooks:
       - id: proselint
         types: ["asciidoc", "file", "non-executable", "plain-text", "text"]
   - repo: https://github.com/streetsidesoftware/cspell-cli
-    rev: v8.17.0
+    rev: v9.3.3
     hooks:
       - id: cspell
         additional_dependencies:

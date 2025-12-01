@@ -24,9 +24,13 @@ EOF
       echo 'PATH="${HOME}/.local/bin:${PATH}"' >> "${HOME}/.profile"
     fi
 
+  if [[ "${gh_repo_dotfiles}" =~ "steamdeck_public" ]]; then
+    gh_domain="github.com-dotfiles-steamdeck"
+  fi
+
   sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply --ssh --verbose \
     --interactive \
-    "git@github.com-dotfiles-steamdeck:${gh_repo_dotfiles}.git"
+    "git@${gh_domain:-github.com}:${gh_repo_dotfiles}.git"
 }
 
 main() {
